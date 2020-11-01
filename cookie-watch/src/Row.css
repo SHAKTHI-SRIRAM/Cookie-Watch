@@ -1,0 +1,33 @@
+.row_poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 200px;
+    margin-right: 5px;
+    transition: transform 450ms;
+    padding: 10px;
+}
+.row_posters {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.row_poster:hover {
+    transform: scale(1.08);
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+.originals {
+    max-height: 250px;
+}
+.originals:hover {
+    transform: scale(1.1) !important;
+}
+.row {
+    margin-left: 20px;
+}
+.row_title {
+    color: #fff;
+}

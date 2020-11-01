@@ -1,0 +1,33 @@
+.nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+    height: 70px;
+    z-index: 1;
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.logo {
+    flex: 1;
+}
+.nav_black {
+    background-color: #111;
+}
+
+.nav > h1 > span {
+    color: magenta;
+}
+.cookie {
+    font-family: 'Acme';
+}
+.watch {
+    font-family: 'Bangers';
+}
+.right-nav > span > a {
+    text-decoration: none;
+    font-family: 'Bangers';
+    font-size: 20px;
+    color: magenta;
+}
